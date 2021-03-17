@@ -1,57 +1,13 @@
-
-
-body{
-    width: 100%;
-    overflow: hidden;
-    background: #eababa; 
-    font-family: sans-serif;
-    margin: 0;
+*{
+    background-color: #eababa;
+    background-image: Hote;
 }
 h1{
-    font-size: larger;
-    font-weight: 500;
     text-align: left;
+    font-size: 40px;
+    font-family: sans-serif;
+
 }
 p{
-    font-size: large;
-}
-.text {
-    max-width: 800px;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
-.text p{
-    width: 100%;
-}
-.button{
-    width: 35px;
-    position: absolute;
-    margin: 2rem;
-    right: 0;
-    top: 0;
-    z-index: 9999;
-    cursor: pointer;
-    height: 30px;
-}
-.button .line{
-    width: 100px;
-    height: 4px;
-    transition: 1s ease;
-}
-.button .line:nth-of-type(2){
-    margin: 0.5rem 0;
-}
-.button .line-1{
-    transform: rotate(45deg);
-    top: 13px;
-    position: absolute;
-}
-li{
-    padding-top: 200px;
-    float: left;
-    font-display: flex;
-}
-.top{
-    background-image: Hotels.jpg;
+    font-size: 130%;
 }
