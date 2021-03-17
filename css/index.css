@@ -1,0 +1,19 @@
+.destinations {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    
+}
+body {
+    background-color: #E2BABA;
+}
+.parks {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+.reserves {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
