@@ -14,11 +14,15 @@ body{
     display: flex;
     justify-content: space-around;
 }
-p{
-    display: inline;
-    justify-content: flex-end;
+.mombasa :hover {
+    opacity: 0.9;
+    background-color: aqua;
 }
-#stretch{
-    text-align: center;
-    
+.Nairobi :hover{
+    opacity: 0.9;
+    background-color: aqua;
+}
+.mombasa :hover{
+    opacity: 0.9;
+    background-color: aqua;
 }
