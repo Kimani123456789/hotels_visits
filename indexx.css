@@ -1,13 +1,29 @@
 *{
     background-color: #eababa;
-    background-image: Hote;
+    background-image: Hotels.jpg;
 }
 h1{
     text-align: left;
     font-size: 40px;
     font-family: sans-serif;
+    color: white;
 
 }
 p{
     font-size: 130%;
+}
+li{
+    padding: 10px;
+    color: white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flexbox;
+    list-style: none;
+    float: right;
+    padding: 0%;
+    margin: 0%;
 }
