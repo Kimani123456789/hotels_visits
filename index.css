@@ -1,3 +1,4 @@
+
 body{
     background-color: #E2BABA;
     text-align: center;
@@ -53,5 +54,50 @@ a:hover{
 p {
     font-style: italic;
     opacity: 0.8;
+}
+/* {
+    box-sizing: border-box;
+  }*/
+  body{
+      background-color: #EABABA;
+  }
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .start{
+      background-image: url(images/Hotels.jpg);
+      background-size: 1500px 800px;
+      background-repeat: no-repeat;
+      opacity: 0.8;
+  }
+  h1{
+      color: white;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+    flex-direction: row;
+    align-items: flex-end;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    padding: 10px;
+    color: white;
 
 }
