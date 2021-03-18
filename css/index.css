@@ -17,3 +17,7 @@ body {
     justify-content: space-around;
     height: 450px;
 }
+a:hover{
+    background-color: blue;
+    opacity: 0.6;
+}
