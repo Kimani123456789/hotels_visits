@@ -26,3 +26,32 @@ body{
     opacity: 0.9;
     background-color: aqua;
 }
+
+.destinations {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    
+}
+body {
+    background-color: #E2BABA;
+}
+.parks {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+.reserves {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+a:hover{
+    background-color: blue;
+    opacity: 0.6;
+}
+p {
+    font-style: italic;
+    opacity: 0.8;
+
+}
