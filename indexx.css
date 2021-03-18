@@ -1,27 +1,33 @@
-*{
-    background-color: #eababa;
-    background-image: ;
-}
-h1{
-    text-align: left;
-    font-size: 40px;
-    font-family: sans-serif;
-    color: white;
 
-}
-p{
-
-    font-size: 100%;
-}
-li{
+* {
+    box-sizing: border-box;
+  }
+  body{
+      background-color: #EABABA;
+  }
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
     padding: 10px;
-    color: white;
-}
-li a{
-    text-decoration: none;
-    color: white;
-}
-ul{
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .start{
+      background-image: url(images/Hotels.jpg);
+      background-size: 1500px 800px;
+      background-repeat: no-repeat;
+      opacity: 0.8;
+  }
+  h1{
+      color: white;
+  }
+  ul{
     display: flex;
     list-style: none;
     float: right;
@@ -29,4 +35,12 @@ ul{
     margin: 0%;
     flex-direction: row;
     align-items: flex-end;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    padding: 10px;
+    color: white;
 }
