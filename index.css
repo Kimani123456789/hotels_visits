@@ -34,6 +34,11 @@ body{
     height: 450px;
     
 }
+.sef{
+    border-color: rgb(43, 3, 43);
+    background-origin: padding-box;
+    color: white;
+}
 body {
     background-color: #E2BABA;
 }
@@ -55,9 +60,9 @@ p {
     font-style: italic;
     opacity: 0.8;
 }
-/* {
+* {
     box-sizing: border-box;
-  }*/
+  }
   body{
       background-color: #EABABA;
   }
